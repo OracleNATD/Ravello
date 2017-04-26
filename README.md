@@ -14,3 +14,5 @@ Utilities for working with Ravello
 - Import the VM to Ravello
 - Tweak the [ravello-cloud-init-ol73.sh](ravello-cloud-init-ol73.sh) to suite your needs (e.g., add your public key)
 - Copy the [ravello-cloud-init-ol73.sh](ravello-cloud-init-ol73.sh) to the Cloud Init Configuration of your imported VM. This can be done during VM Verification or afterwards.
+
+	![](images/Cloud-Init-Configuration.PNG)
