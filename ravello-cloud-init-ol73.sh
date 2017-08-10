@@ -8,6 +8,7 @@ nmcli connection add con-name "eth0" type ethernet ifname eth0
 
 # add public key for user 'NAS Platform Specialist'.-----------------------------
 echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCu/7L2/uOB8B1jK4I9x3fFo60bejEr9xqoj4bgeK6qxHelkrgWbn7JOXtB3PPE231Pew6bAOFBvHD9c/Dndj4KPf8Zq7mOy7O3/cAvX8VSREaIAAgJ+5dVhoLgrAHq3gYqQYqSAYslnb/hzMXNVpfJSZfVs/+g1UHL2BivLgh5CfqV4VEgr2iy05UJLeDaHFsMHN/YJn2r7gd8ElzSA98RavbRC6GYnS4F/m9Tv7wvu2lSYE32/9LOSa0wbxk+OZxF1PYRQprCFYgqh26V+iEXVU/VCqsttexZKgjEuD0EnuEeON6ZTbxFR90uSX23TefhIXSwAyxcvQwLagn43z2J NAS-Platform-Specialist-GSE" >> /home/oracle/.ssh/authorized_keys
+chmod 600 /home/oracle/.ssh/authorized_keys
 
 # disable ssh password authentication. -----------------------------------------
 sshdconfig="/etc/ssh/sshd_config"
